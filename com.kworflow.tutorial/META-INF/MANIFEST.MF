@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tutorial
+Bundle-SymbolicName: com.kworflow.tutorial
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.kworflow.tutorial.Activator
+Bundle-Vendor: KWORFLOW
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.gef.examples.flow;bundle-version="3.8.1",
+ org.eclipse.gef.examples.shapes.source;bundle-version="3.8.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
